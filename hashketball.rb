@@ -220,3 +220,7 @@ def player_stats(player)
   end
   return player_stats_array[0]
 end
+
+def big_shoe_rebounds
+  
+end
