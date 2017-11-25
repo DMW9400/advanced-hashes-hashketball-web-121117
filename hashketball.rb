@@ -225,6 +225,7 @@ def big_shoe_rebounds
   shoe_size_array = []
   max_shoe = game_hash.each do |home_away, team_info|
     team_info[:players].each do |player_name, player_stats|
-      player_stats[:shoe]
+      shoe_size_array<<player_stats[:shoe]
       end
+      return shoe_size_array
 end
