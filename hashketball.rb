@@ -227,5 +227,6 @@ def big_shoe_rebounds
     team_info[:players].each do |player_name, player_stats|
       shoe_size_array<< player_stats[:shoe]
       end
+    end
       return shoe_size_array
 end
