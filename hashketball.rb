@@ -222,5 +222,5 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  
+  max_shoe = game_hash.collect do |home_away
 end
